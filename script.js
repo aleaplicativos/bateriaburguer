@@ -21,8 +21,17 @@ const FILES = {
 
 gsap.registerPlugin(MotionPathPlugin);
 
+function App() {
+  return /*#__PURE__*/(
+    React.createElement("div", { className: "App" }, /*#__PURE__*/
+    React.createElement(BurgerDrum, null), /*#__PURE__*/
+    React.createElement("a", { href: "https://youtu.be/VtmsuVT7BGI", target: "_blank", className: "component-carousel" }, /*#__PURE__*/
+    React.createElement("span", null, "Watch us make this on"), /*#__PURE__*/
+    React.createElement("img", { src: "https://assets.codepen.io/557388/component-carousel.png", alt: "Component Carousel" }))));
 
 
+
+}
 
 function BurgerDrum() {
 
