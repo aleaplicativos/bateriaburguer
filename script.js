@@ -19,9 +19,6 @@ const FILES = {
   cymbal2: "https://assets.codepen.io/557388/cymbal-2.mp3" };
 
 
-gsap.registerPlugin(MotionPathPlugin);
-
-
 
 function BurgerDrum() {
 
